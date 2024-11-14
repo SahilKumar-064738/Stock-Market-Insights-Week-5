@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin-bottom: 60px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  background: linear-gradient(135deg, #32a852, #00d300);
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+  border-bottom: 3px solid #00d300;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+nav {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+nav h2 {
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.grid-item {
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.grid-item .item-content {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+}
+
+.grid-item h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.grid-item p {
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.grid-item.wealth-creation {
+  background-image: url("https://www.w3schools.com/w3images/mountains.jpg");
+}
+
+.grid-item.dividend-income {
+  background-image: url("https://www.w3schools.com/w3images/ocean.jpg");
+}
+
+.grid-item.liquidity {
+  background-image: url("https://www.w3schools.com/w3images/forest.jpg");
+}
+
+.grid-item.diversification {
+  background-image: url("https://www.w3schools.com/w3images/snow.jpg");
+}
+
+.grid-item.growth {
+  background-image: url("https://www.w3schools.com/w3images/rocks.jpg");
+}
+
+.grid-item.tax-benefits {
+  background-image: url("https://www.w3schools.com/w3images/lights.jpg");
+}
+
+#faq {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.faq-container {
+  margin-top: 20px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item button {
+  width: 100%;
+  padding: 15px;
+  background-color: #32a852;
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.faq-item button:hover {
+  background-color: #28a745;
+}
+
+.faq-answer {
+  display: none; /* Initially hide the answers */
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ccc;
+}
+footer {
+  background-color: #32a852;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+button#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #32a852;
+  color: white;
+  border: none;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+button#scrollTopBtn:hover {
+  background-color: #28a745;
+}
